@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="db-web:war">
+    <output-path>$PROJECT_DIR$/db-web/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>db-web</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="db-web-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="db-web:war exploded" />
+    </root>
+  </artifact>
+</component>
